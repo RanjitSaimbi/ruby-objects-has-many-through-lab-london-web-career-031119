@@ -22,7 +22,7 @@ class Patient
   end 
   
   def patients 
-    
+    appointments.map 
   end 
   
 end
