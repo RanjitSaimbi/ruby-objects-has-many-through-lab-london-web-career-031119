@@ -18,6 +18,7 @@ class Doctor
   
   def appointments 
     Appointment.all select |appointment|
+      
     end 
   end 
   
