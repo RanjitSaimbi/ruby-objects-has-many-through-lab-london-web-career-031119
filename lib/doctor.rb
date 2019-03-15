@@ -22,8 +22,6 @@ class Doctor
     # Appointment.all.select |appointment|
     #   appointment.doctor == self
     # end
-    binding.pry 
-    "fghfg"
   end 
   
 end 
