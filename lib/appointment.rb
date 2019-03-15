@@ -9,6 +9,8 @@ class Appointment
     @patient = patient 
     @doctor = doctor
     @@all << self
+    binding.pry
+    "ghd"
   end 
   
   def self.all 
