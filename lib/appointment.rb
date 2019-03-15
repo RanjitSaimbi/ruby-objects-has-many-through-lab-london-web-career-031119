@@ -12,6 +12,7 @@ class Appointment
   end 
   
   binding.pry 
+  "hgf"
   
   def self.all 
     @@all
