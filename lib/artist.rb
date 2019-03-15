@@ -18,8 +18,8 @@ class Artist
   end
 
   def songs 
-    Songs.all.select do |meal|
-      meal 
+    Songs.all.select do |song|
+       song.artist 
     end 
   end 
    
