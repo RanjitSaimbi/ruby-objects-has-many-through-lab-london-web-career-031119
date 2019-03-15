@@ -11,9 +11,6 @@ class Appointment
     @@all << self
   end 
   
-  binding.pry 
-  "hgf"
-  
   def self.all 
     @@all
   end 
