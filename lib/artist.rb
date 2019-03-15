@@ -20,6 +20,7 @@ class Artist
   def songs 
     Songs.all.select do |meal|
       meal 
+    end 
   end 
    
 end
