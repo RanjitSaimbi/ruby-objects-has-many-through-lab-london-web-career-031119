@@ -26,6 +26,7 @@ class Doctor
   
     def patients 
       binding.pry
+      "ghdg"
       
     appointments.map do |appointment|
       appointment.patient
