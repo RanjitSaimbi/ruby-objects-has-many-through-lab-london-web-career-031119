@@ -11,6 +11,7 @@ class Appointment
     @@all << self
   end 
   
+  binding.pry 
   
   def self.all 
     @@all
